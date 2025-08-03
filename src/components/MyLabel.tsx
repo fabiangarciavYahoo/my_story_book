@@ -1,6 +1,6 @@
 import './myLabel.css'
 
-interface Props {
+export interface Props {
   label: string;
   color: 'text-primary' | 'text-secondary' | 'text-tertiary';
   allCaps: boolean;
